@@ -6,7 +6,6 @@ pipeline {
               steps {
                 // Compile and run the unit tests for the app and its dependencies
                 //
-                //
                  echo 'Testing..'
                 sh './gradlew testDebugUnitTest'
                  echo 'Tested..'
