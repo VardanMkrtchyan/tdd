@@ -9,6 +9,7 @@ environment {
               steps {
                 // Compile and run the unit tests for the app and its dependencies
                  echo 'Testing..'
+                 echo env.BRANCH_NAME
                 sh './gradlew testDebugUnitTest'
                  echo 'Tested..'
               }
