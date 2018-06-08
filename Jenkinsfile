@@ -2,7 +2,7 @@ pipeline {
     agent any
 
 environment {
-             ANDROID_HOME = 'C:\Users\vardan.mkrtchyan\AppData\Local\Android\Sdk'
+             ANDROID_HOME = 'C:/Users/vardan.mkrtchyan/AppData/Local/Android/Sdk'
          }
     stages {
         stage('Unit test') {
