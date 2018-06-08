@@ -4,9 +4,8 @@ pipeline {
 environment {
              ANDROID_HOME = 'C:/Users/vardan.mkrtchyan/AppData/Local/Android/Sdk'
          }
-         triggers {
-                pollSCM('* * * * *')
-            }
+
+
     stages {
         stage('Unit test') {
               steps {
